@@ -1,0 +1,34 @@
+src/*.exe
+src/adamcoin
+src/adamcoind
+src/test_adamcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.adamcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+# Makefile
+adamcoin-qt
+Adamcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+adamcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
